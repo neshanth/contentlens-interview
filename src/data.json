@@ -1,0 +1,58 @@
+{
+  "scenarios": [
+    {
+      "id": "mixed",
+      "label": "Mixed sentiment",
+      "result": {
+        "transcript_text": "I love the packaging and the scent opens really fresh, but it fades faster than I expected. The bottle looks premium and I got compliments when I wore it. Still, I wish the longevity was better for the price point.",
+        "summary": "The reviewer likes the scent profile and premium presentation, and reports positive social feedback. The main criticism is weak longevity relative to price.",
+        "positive_review": "Reviewer praises the fresh scent, premium bottle design, and compliments received while wearing it.",
+        "negative_review": "Reviewer is disappointed that the fragrance does not last long enough for the price.",
+        "positive_points": [
+          "Fresh scent profile",
+          "Premium bottle and presentation",
+          "Received compliments while wearing"
+        ],
+        "negative_points": ["Longevity feels weak", "Value-for-money concern"],
+        "language": "en",
+        "duration_seconds": 59
+      }
+    },
+    {
+      "id": "positive_only",
+      "label": "Positive-only",
+      "result": {
+        "transcript_text": "This might be my new signature scent. The bottle is beautiful, the fragrance smells incredible, and I love that it's vegan and cruelty free.",
+        "summary": "The review is strongly positive and positions the product as a potential signature fragrance. Packaging, scent quality, and clean claims are highlighted as strengths.",
+        "positive_review": "Reviewer is highly enthusiastic about the scent, packaging, and clean/ethical product claims.",
+        "negative_review": null,
+        "positive_points": [
+          "Excellent scent quality",
+          "Beautiful bottle design",
+          "Vegan and cruelty-free positioning"
+        ],
+        "negative_points": [],
+        "language": "en",
+        "duration_seconds": 45
+      }
+    },
+    {
+      "id": "negative_only",
+      "label": "Negative-only",
+      "result": {
+        "transcript_text": "The opening is too sharp for me and it dries down into something flat. The bottle leaks slightly in my bag, and I do not think this is worth the price.",
+        "summary": "The review is predominantly negative, citing scent dissatisfaction, packaging reliability issues, and poor value perception.",
+        "positive_review": null,
+        "negative_review": "Reviewer criticizes the scent profile, mentions bottle leakage, and says the product is overpriced.",
+        "positive_points": [],
+        "negative_points": [
+          "Scent profile not enjoyable",
+          "Bottle leakage concern",
+          "Price does not match experience"
+        ],
+        "language": "en",
+        "duration_seconds": 52
+      }
+    }
+  ]
+}
