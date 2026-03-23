@@ -1,7 +1,7 @@
 import { useState } from "react";
 import VideoPlayer from "../videoPlayer/videoPlayer";
 
-const Video = ({ handleSummary }) => {
+const Video = ({ handleSummary, loading }) => {
   const [selectedVideo, setSelectedVideo] = useState(null);
 
   const handleVideoUpload = (event) => {
@@ -31,7 +31,7 @@ const Video = ({ handleSummary }) => {
           disabled={!selectedVideo}
           className="btn-primary w-full"
         >
-          Analyze Review
+          {loading ? "Analyzing..." : "Analyze Review"}
         </button>
       </div>
       <div className="divider"></div>
